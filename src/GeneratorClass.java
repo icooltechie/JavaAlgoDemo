@@ -11,8 +11,6 @@ public class GeneratorClass {
 		String mobileNo = "";
 		String[] city = {"Pune", "Mumbai", "Bangalore", "Delhi", "Kolkata", "Hyderabad", "Chennai"};
 		int m = (int) Math.pow(10, 9 - 1);
-		//System.out.print("9");
-		//System.out.println(m + new Random().nextInt(9 * m));
 		Scanner scn = new Scanner(System.in);
 		for (int i=0; i<42;i++) {
 		name =  scn.nextLine();
@@ -25,7 +23,7 @@ public class GeneratorClass {
 		System.out.println(city[new Random().nextInt(city.length)]);
 		System.out.println("");
 		}
-		
+		scn.close();
 	}
 
 }
