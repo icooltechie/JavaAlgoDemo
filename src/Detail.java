@@ -14,6 +14,7 @@ public class Detail {
     public String testsdiagnosis;
     public String treatment;
     public String url;
+    public String dtl;
 
     public Detail(Context paramContext, int paramInt)
     {
