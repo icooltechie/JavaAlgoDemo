@@ -18,10 +18,8 @@ public class GeneratorClass {
 		System.out.println(name.replaceAll("\\s", "").toLowerCase()+email[new Random().nextInt(email.length)]);
 		System.out.println(desgination[new Random().nextInt(desgination.length)]);
 		System.out.println(organization[new Random().nextInt(organization.length)]);
-		System.out.print("9");
 		System.out.println(m + new Random().nextInt(9 * m));
 		System.out.println(city[new Random().nextInt(city.length)]);
-		System.out.println("");
 		}
 		scn.close();
 	}
