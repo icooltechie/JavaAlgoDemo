@@ -1,0 +1,22 @@
+
+public class ReverseTest {
+
+	public static String reverseWords(String v) {
+
+		String[] strings = v.split("\\s+");
+		String result = "";
+		for (String string : strings) {
+			result = string + " " + result;
+		}
+		result=result.trim();
+	
+		if (result.equals(v))
+			return null;
+		return result;
+	}
+	
+	public static void main(String[] args) {
+		System.out.println(reverseWords("A B C"));
+	}
+
+}
