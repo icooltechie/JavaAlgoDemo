@@ -1,0 +1,10 @@
+
+public class AlgoDemoTest {
+
+	public static void main(String[] args) {
+		
+		Long myLong= 6442450944L;
+		             
+		System.out.println(Integer.MAX_VALUE);
+	}
+}
